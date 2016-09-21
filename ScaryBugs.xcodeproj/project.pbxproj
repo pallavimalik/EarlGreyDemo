@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E1891F51D50825E00D42F92 /* ScaryBugsViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1891F41D50825E00D42F92 /* ScaryBugsViewControllerSpec.swift */; };
+		8E570AE51D9063570020A6E5 /* EarlGrey in Resources */ = {isa = PBXBuildFile; fileRef = 8E570AE41D9063570020A6E5 /* EarlGrey */; };
+		8E570AE71D90DF4F0020A6E5 /* ScaryBugDetailViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E570AE61D90DF4F0020A6E5 /* ScaryBugDetailViewControllerSpec.swift */; };
+		8E86B8511D9059DB00A8A836 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E86B8501D9059DB00A8A836 /* EarlGrey.swift */; };
+		8E86B8531D905A1600A8A836 /* MockedNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E86B8521D905A1600A8A836 /* MockedNavigationController.swift */; };
+		D698BE3CC63306436268605E /* libPods-ScaryBugsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8490A82C12870DFEB3A876 /* libPods-ScaryBugsTests.a */; };
 		EB544A0718A1876200E34B7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB544A0618A1876200E34B7E /* Foundation.framework */; };
 		EB544A0918A1876200E34B7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB544A0818A1876200E34B7E /* CoreGraphics.framework */; };
 		EB544A0B18A1876200E34B7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB544A0A18A1876200E34B7E /* UIKit.framework */; };
@@ -14,11 +20,11 @@
 		EB544A1318A1876200E34B7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB544A1218A1876200E34B7E /* main.m */; };
 		EB544A1718A1876200E34B7E /* RWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB544A1618A1876200E34B7E /* RWTAppDelegate.m */; };
 		EB544A1A18A1876200E34B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB544A1818A1876200E34B7E /* Main.storyboard */; };
-		EB544A1D18A1876200E34B7E /* RWTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB544A1C18A1876200E34B7E /* RWTMasterViewController.m */; };
-		EB544A2018A1876200E34B7E /* RWTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB544A1F18A1876200E34B7E /* RWTDetailViewController.m */; };
+		EB544A1D18A1876200E34B7E /* BugsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB544A1C18A1876200E34B7E /* BugsListViewController.m */; };
+		EB544A2018A1876200E34B7E /* BugDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB544A1F18A1876200E34B7E /* BugDetailViewController.m */; };
 		EB544A2218A1876200E34B7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB544A2118A1876200E34B7E /* Images.xcassets */; };
-		EB544A4218A18D4400E34B7E /* RWTScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = EB544A4118A18D4400E34B7E /* RWTScaryBugData.m */; };
-		EB544A4518A18E2E00E34B7E /* RWTScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = EB544A4418A18E2E00E34B7E /* RWTScaryBugDoc.m */; };
+		EB544A4218A18D4400E34B7E /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = EB544A4118A18D4400E34B7E /* ScaryBugData.m */; };
+		EB544A4518A18E2E00E34B7E /* ScaryBugsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EB544A4418A18E2E00E34B7E /* ScaryBugsDataSource.m */; };
 		EB544A5118A19B1400E34B7E /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB544A4818A19B1400E34B7E /* centipede.jpg */; };
 		EB544A5218A19B1400E34B7E /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB544A4918A19B1400E34B7E /* centipedeThumb.jpg */; };
 		EB544A5318A19B1400E34B7E /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB544A4A18A19B1400E34B7E /* ladybug.jpg */; };
@@ -27,7 +33,6 @@
 		EB544A5618A19B1400E34B7E /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB544A4D18A19B1400E34B7E /* potatoBugThumb.jpg */; };
 		EB544A5718A19B1400E34B7E /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB544A4E18A19B1400E34B7E /* wolfSpider.jpg */; };
 		EB544A5818A19B1400E34B7E /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB544A4F18A19B1400E34B7E /* wolfSpiderThumb.jpg */; };
-		EBA1793D18A2CD0000D84ADC /* RWTRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA1793C18A2CD0000D84ADC /* RWTRateView.m */; };
 		EBA1794118A2CD1300D84ADC /* RWTUIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA1794018A2CD1300D84ADC /* RWTUIImageExtras.m */; };
 		EBA1794618A2CD4900D84ADC /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA1794318A2CD4900D84ADC /* shockedface2_empty.png */; };
 		EBA1794718A2CD4900D84ADC /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA1794418A2CD4900D84ADC /* shockedface2_full.png */; };
@@ -35,7 +40,43 @@
 		EBA1794A18A2CD5D00D84ADC /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA1794918A2CD5D00D84ADC /* logo1.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8E1891F71D50825E00D42F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB5449FB18A1876200E34B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB544A0218A1876200E34B7E;
+			remoteInfo = ScaryBugs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8508E7E87DC41D9E2AA8009 /* EarlGrey Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TEST_HOST)/../";
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			name = "EarlGrey Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2323379A288C699D29E1C445 /* EarlGrey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EarlGrey.framework; path = "${SRCROOT}/Pods/EarlGrey/EarlGrey-1.0.0/EarlGrey.framework"; sourceTree = SRCROOT; };
+		293CF041C3498EA4B94B7904 /* Pods-ScaryBugsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaryBugsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScaryBugsTests/Pods-ScaryBugsTests.release.xcconfig"; sourceTree = "<group>"; };
+		78B4040E0CDFDFC1206044EC /* Pods-ScaryBugsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaryBugsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaryBugsTests/Pods-ScaryBugsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E1891F21D50825E00D42F92 /* ScaryBugsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1891F41D50825E00D42F92 /* ScaryBugsViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaryBugsViewControllerSpec.swift; sourceTree = "<group>"; };
+		8E1891F61D50825E00D42F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1892061D50832100D42F92 /* ScaryBugsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScaryBugsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E570AE41D9063570020A6E5 /* EarlGrey */ = {isa = PBXFileReference; lastKnownFileType = folder; name = EarlGrey; path = Pods/EarlGrey; sourceTree = "<group>"; };
+		8E570AE61D90DF4F0020A6E5 /* ScaryBugDetailViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaryBugDetailViewControllerSpec.swift; sourceTree = "<group>"; };
+		8E86B8501D9059DB00A8A836 /* EarlGrey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		8E86B8521D905A1600A8A836 /* MockedNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockedNavigationController.swift; sourceTree = "<group>"; };
+		C488E87E081C46C5571F2B67 /* libPods-ScaryBugs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScaryBugs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8490A82C12870DFEB3A876 /* libPods-ScaryBugsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScaryBugsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB544A0318A1876200E34B7E /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB544A0618A1876200E34B7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EB544A0818A1876200E34B7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,16 +88,16 @@
 		EB544A1518A1876200E34B7E /* RWTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTAppDelegate.h; sourceTree = "<group>"; };
 		EB544A1618A1876200E34B7E /* RWTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTAppDelegate.m; sourceTree = "<group>"; };
 		EB544A1918A1876200E34B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EB544A1B18A1876200E34B7E /* RWTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTMasterViewController.h; sourceTree = "<group>"; };
-		EB544A1C18A1876200E34B7E /* RWTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTMasterViewController.m; sourceTree = "<group>"; };
-		EB544A1E18A1876200E34B7E /* RWTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTDetailViewController.h; sourceTree = "<group>"; };
-		EB544A1F18A1876200E34B7E /* RWTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTDetailViewController.m; sourceTree = "<group>"; };
+		EB544A1B18A1876200E34B7E /* BugsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugsListViewController.h; sourceTree = "<group>"; };
+		EB544A1C18A1876200E34B7E /* BugsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugsListViewController.m; sourceTree = "<group>"; };
+		EB544A1E18A1876200E34B7E /* BugDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugDetailViewController.h; sourceTree = "<group>"; };
+		EB544A1F18A1876200E34B7E /* BugDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugDetailViewController.m; sourceTree = "<group>"; };
 		EB544A2118A1876200E34B7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB544A2818A1876300E34B7E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EB544A4018A18D4400E34B7E /* RWTScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTScaryBugData.h; sourceTree = "<group>"; };
-		EB544A4118A18D4400E34B7E /* RWTScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTScaryBugData.m; sourceTree = "<group>"; };
-		EB544A4318A18E2E00E34B7E /* RWTScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTScaryBugDoc.h; sourceTree = "<group>"; };
-		EB544A4418A18E2E00E34B7E /* RWTScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTScaryBugDoc.m; sourceTree = "<group>"; };
+		EB544A4018A18D4400E34B7E /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
+		EB544A4118A18D4400E34B7E /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
+		EB544A4318A18E2E00E34B7E /* ScaryBugsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugsDataSource.h; sourceTree = "<group>"; };
+		EB544A4418A18E2E00E34B7E /* ScaryBugsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsDataSource.m; sourceTree = "<group>"; };
 		EB544A4818A19B1400E34B7E /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
 		EB544A4918A19B1400E34B7E /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
 		EB544A4A18A19B1400E34B7E /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
@@ -65,8 +106,6 @@
 		EB544A4D18A19B1400E34B7E /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
 		EB544A4E18A19B1400E34B7E /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
 		EB544A4F18A19B1400E34B7E /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
-		EBA1793B18A2CD0000D84ADC /* RWTRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTRateView.h; sourceTree = "<group>"; };
-		EBA1793C18A2CD0000D84ADC /* RWTRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTRateView.m; sourceTree = "<group>"; };
 		EBA1793F18A2CD1300D84ADC /* RWTUIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTUIImageExtras.h; sourceTree = "<group>"; };
 		EBA1794018A2CD1300D84ADC /* RWTUIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTUIImageExtras.m; sourceTree = "<group>"; };
 		EBA1794318A2CD4900D84ADC /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
@@ -76,6 +115,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8E1891EF1D50825E00D42F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D698BE3CC63306436268605E /* libPods-ScaryBugsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EB544A0018A1876200E34B7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,12 +136,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E95E64A3779BE1DFF1EAE8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78B4040E0CDFDFC1206044EC /* Pods-ScaryBugsTests.debug.xcconfig */,
+				293CF041C3498EA4B94B7904 /* Pods-ScaryBugsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E1891F31D50825E00D42F92 /* ScaryBugsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E86B8501D9059DB00A8A836 /* EarlGrey.swift */,
+				8E86B8521D905A1600A8A836 /* MockedNavigationController.swift */,
+				8E1891F41D50825E00D42F92 /* ScaryBugsViewControllerSpec.swift */,
+				8E570AE61D90DF4F0020A6E5 /* ScaryBugDetailViewControllerSpec.swift */,
+				8E1891F61D50825E00D42F92 /* Info.plist */,
+				8E1892061D50832100D42F92 /* ScaryBugsTests-Bridging-Header.h */,
+			);
+			path = ScaryBugsTests;
+			sourceTree = "<group>";
+		};
 		EB5449FA18A1876200E34B7E = {
 			isa = PBXGroup;
 			children = (
+				8E570AE41D9063570020A6E5 /* EarlGrey */,
 				EB544A0C18A1876200E34B7E /* ScaryBugs */,
+				8E1891F31D50825E00D42F92 /* ScaryBugsTests */,
 				EB544A0518A1876200E34B7E /* Frameworks */,
 				EB544A0418A1876200E34B7E /* Products */,
+				0E95E64A3779BE1DFF1EAE8B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				EB544A0318A1876200E34B7E /* ScaryBugs.app */,
+				8E1891F21D50825E00D42F92 /* ScaryBugsTests.xctest */,
+				2323379A288C699D29E1C445 /* EarlGrey.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +187,8 @@
 				EB544A0818A1876200E34B7E /* CoreGraphics.framework */,
 				EB544A0A18A1876200E34B7E /* UIKit.framework */,
 				EB544A2818A1876300E34B7E /* XCTest.framework */,
+				C488E87E081C46C5571F2B67 /* libPods-ScaryBugs.a */,
+				CF8490A82C12870DFEB3A876 /* libPods-ScaryBugsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,7 +198,6 @@
 			children = (
 				EBA1794218A2CD2200D84ADC /* Art */,
 				EBA1793E18A2CD0300D84ADC /* Helpers */,
-				EBA1793A18A2CC8100D84ADC /* Views */,
 				EB544A4618A19B1400E34B7E /* ScaryBugs */,
 				EB544A3F18A18B8300E34B7E /* Model */,
 				EB544A3E18A18ACE00E34B7E /* GUI */,
@@ -149,10 +224,10 @@
 				EB544A1518A1876200E34B7E /* RWTAppDelegate.h */,
 				EB544A1618A1876200E34B7E /* RWTAppDelegate.m */,
 				EB544A1818A1876200E34B7E /* Main.storyboard */,
-				EB544A1B18A1876200E34B7E /* RWTMasterViewController.h */,
-				EB544A1C18A1876200E34B7E /* RWTMasterViewController.m */,
-				EB544A1E18A1876200E34B7E /* RWTDetailViewController.h */,
-				EB544A1F18A1876200E34B7E /* RWTDetailViewController.m */,
+				EB544A1B18A1876200E34B7E /* BugsListViewController.h */,
+				EB544A1C18A1876200E34B7E /* BugsListViewController.m */,
+				EB544A1E18A1876200E34B7E /* BugDetailViewController.h */,
+				EB544A1F18A1876200E34B7E /* BugDetailViewController.m */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -160,10 +235,10 @@
 		EB544A3F18A18B8300E34B7E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EB544A4018A18D4400E34B7E /* RWTScaryBugData.h */,
-				EB544A4118A18D4400E34B7E /* RWTScaryBugData.m */,
-				EB544A4318A18E2E00E34B7E /* RWTScaryBugDoc.h */,
-				EB544A4418A18E2E00E34B7E /* RWTScaryBugDoc.m */,
+				EB544A4018A18D4400E34B7E /* ScaryBugData.h */,
+				EB544A4118A18D4400E34B7E /* ScaryBugData.m */,
+				EB544A4318A18E2E00E34B7E /* ScaryBugsDataSource.h */,
+				EB544A4418A18E2E00E34B7E /* ScaryBugsDataSource.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -181,15 +256,6 @@
 				EB544A4F18A19B1400E34B7E /* wolfSpiderThumb.jpg */,
 			);
 			path = ScaryBugs;
-			sourceTree = "<group>";
-		};
-		EBA1793A18A2CC8100D84ADC /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				EBA1793B18A2CD0000D84ADC /* RWTRateView.h */,
-				EBA1793C18A2CD0000D84ADC /* RWTRateView.m */,
-			);
-			name = Views;
 			sourceTree = "<group>";
 		};
 		EBA1793E18A2CD0300D84ADC /* Helpers */ = {
@@ -215,6 +281,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8E1891F11D50825E00D42F92 /* ScaryBugsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1891FB1D50825F00D42F92 /* Build configuration list for PBXNativeTarget "ScaryBugsTests" */;
+			buildPhases = (
+				C568D48965EF78C8EFBA2AA3 /* 📦 Check Pods Manifest.lock */,
+				8E1891EE1D50825E00D42F92 /* Sources */,
+				8E1891EF1D50825E00D42F92 /* Frameworks */,
+				8E1891F01D50825E00D42F92 /* Resources */,
+				1F0594805BFBF2A2FDA4F103 /* 📦 Embed Pods Frameworks */,
+				B66FFA56DA34F7D3ADFA8D1A /* 📦 Copy Pods Resources */,
+				C8508E7E87DC41D9E2AA8009 /* EarlGrey Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1891F81D50825E00D42F92 /* PBXTargetDependency */,
+			);
+			name = ScaryBugsTests;
+			productName = ScaryBugsTests;
+			productReference = 8E1891F21D50825E00D42F92 /* ScaryBugsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EB544A0218A1876200E34B7E /* ScaryBugs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB544A3818A1876300E34B7E /* Build configuration list for PBXNativeTarget "ScaryBugs" */;
@@ -239,7 +327,14 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = RWT;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					8E1891F11D50825E00D42F92 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB544A0218A1876200E34B7E;
+					};
+				};
 			};
 			buildConfigurationList = EB5449FE18A1876200E34B7E /* Build configuration list for PBXProject "ScaryBugs" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -255,11 +350,19 @@
 			projectRoot = "";
 			targets = (
 				EB544A0218A1876200E34B7E /* ScaryBugs */,
+				8E1891F11D50825E00D42F92 /* ScaryBugsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8E1891F01D50825E00D42F92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EB544A0118A1876200E34B7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,6 +370,7 @@
 				EB544A2218A1876200E34B7E /* Images.xcassets in Resources */,
 				EBA1794618A2CD4900D84ADC /* shockedface2_empty.png in Resources */,
 				EB544A5818A19B1400E34B7E /* wolfSpiderThumb.jpg in Resources */,
+				8E570AE51D9063570020A6E5 /* EarlGrey in Resources */,
 				EB544A5318A19B1400E34B7E /* ladybug.jpg in Resources */,
 				EB544A1118A1876200E34B7E /* InfoPlist.strings in Resources */,
 				EB544A5118A19B1400E34B7E /* centipede.jpg in Resources */,
@@ -284,23 +388,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F0594805BFBF2A2FDA4F103 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScaryBugsTests/Pods-ScaryBugsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B66FFA56DA34F7D3ADFA8D1A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScaryBugsTests/Pods-ScaryBugsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C568D48965EF78C8EFBA2AA3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		8E1891EE1D50825E00D42F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E86B8531D905A1600A8A836 /* MockedNavigationController.swift in Sources */,
+				8E86B8511D9059DB00A8A836 /* EarlGrey.swift in Sources */,
+				8E570AE71D90DF4F0020A6E5 /* ScaryBugDetailViewControllerSpec.swift in Sources */,
+				8E1891F51D50825E00D42F92 /* ScaryBugsViewControllerSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EB5449FF18A1876200E34B7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB544A4218A18D4400E34B7E /* RWTScaryBugData.m in Sources */,
-				EBA1793D18A2CD0000D84ADC /* RWTRateView.m in Sources */,
+				EB544A4218A18D4400E34B7E /* ScaryBugData.m in Sources */,
 				EBA1794118A2CD1300D84ADC /* RWTUIImageExtras.m in Sources */,
 				EB544A1718A1876200E34B7E /* RWTAppDelegate.m in Sources */,
-				EB544A4518A18E2E00E34B7E /* RWTScaryBugDoc.m in Sources */,
+				EB544A4518A18E2E00E34B7E /* ScaryBugsDataSource.m in Sources */,
 				EB544A1318A1876200E34B7E /* main.m in Sources */,
-				EB544A1D18A1876200E34B7E /* RWTMasterViewController.m in Sources */,
-				EB544A2018A1876200E34B7E /* RWTDetailViewController.m in Sources */,
+				EB544A1D18A1876200E34B7E /* BugsListViewController.m in Sources */,
+				EB544A2018A1876200E34B7E /* BugDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E1891F81D50825E00D42F92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB544A0218A1876200E34B7E /* ScaryBugs */;
+			targetProxy = 8E1891F71D50825E00D42F92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EB544A0F18A1876200E34B7E /* InfoPlist.strings */ = {
@@ -322,6 +492,63 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8E1891F91D50825F00D42F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B4040E0CDFDFC1206044EC /* Pods-ScaryBugsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/EarlGrey/EarlGrey1",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = ScaryBugsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = TW.ScaryBugsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScaryBugsTests/ScaryBugsTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaryBugs.app/ScaryBugs";
+			};
+			name = Debug;
+		};
+		8E1891FA1D50825F00D42F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293CF041C3498EA4B94B7904 /* Pods-ScaryBugsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/EarlGrey/EarlGrey1",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = ScaryBugsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = TW.ScaryBugsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScaryBugsTests/ScaryBugsTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaryBugs.app/ScaryBugs";
+			};
+			name = Release;
+		};
 		EB544A3618A1876300E34B7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -423,6 +650,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8E1891FB1D50825F00D42F92 /* Build configuration list for PBXNativeTarget "ScaryBugsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1891F91D50825F00D42F92 /* Debug */,
+				8E1891FA1D50825F00D42F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EB5449FE18A1876200E34B7E /* Build configuration list for PBXProject "ScaryBugs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

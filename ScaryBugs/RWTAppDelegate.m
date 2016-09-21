@@ -1,27 +1,23 @@
-//
-//  RWTAppDelegate.m
-//  ScaryBugs
-//
-//  Created by Jorge Jordán Arenas on 04/02/14.
-//
-//
-
 #import "RWTAppDelegate.h"
-#import "RWTMasterViewController.h"
-#import "RWTScaryBugDoc.h"
+#import "BugsListViewController.h"
+#import "ScaryBugsDataSource.h"
 
 @implementation RWTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    RWTScaryBugDoc *bug1 = [[RWTScaryBugDoc alloc] initWithTitle:@"Potato Bug" rating:4 thumbImage:[UIImage imageNamed:@"potatoBugThumb.jpg"] fullImage:[UIImage imageNamed:@"potatoBug.jpg"] description:@"Potatooooo" type:@"Bugggg"];
-    RWTScaryBugDoc *bug2 = [[RWTScaryBugDoc alloc] initWithTitle:@"House Centipede" rating:3 thumbImage:[UIImage imageNamed:@"centipedeThumb.jpg"] fullImage:[UIImage imageNamed:@"centipede.jpg"] description:@"House Centipede" type:@"Bugggg"];
-    RWTScaryBugDoc *bug3 = [[RWTScaryBugDoc alloc] initWithTitle:@"Wolf Spider" rating:5 thumbImage:[UIImage imageNamed:@"wolfSpiderThumb.jpg"] fullImage:[UIImage imageNamed:@"wolfSpider.jpg"] description:@"House Centipede" type:@"Bugggg"];
-    RWTScaryBugDoc *bug4 = [[RWTScaryBugDoc alloc] initWithTitle:@"Lady Bug" rating:1 thumbImage:[UIImage imageNamed:@"ladybugThumb.jpg"] fullImage:[UIImage imageNamed:@"ladybug.jpg"] description:@"House Centipede" type:@"Bugggg"];
+    ScaryBugsDataSource *bug1 = [[ScaryBugsDataSource alloc] initWithTitle:@"Potato Bug" rating:4 thumbImage:[UIImage imageNamed:@"potatoBugThumb.jpg"] fullImage:[UIImage imageNamed:@"potatoBug.jpg"] description:@"They are a group of large, flightless insects of the genus Stenopelmatus. They are native to the western United States and parts of Mexico." type:@"Insecta"];
+    
+    ScaryBugsDataSource *bug2 = [[ScaryBugsDataSource alloc] initWithTitle:@"House Centipede" rating:3 thumbImage:[UIImage imageNamed:@"centipedeThumb.jpg"] fullImage:[UIImage imageNamed:@"centipede.jpg"] description:@"Centipedes are elongated, flattened arthropods with numerous legs – one pair per body segment." type:@"Chilopoda"];
+    
+    ScaryBugsDataSource *bug3 = [[ScaryBugsDataSource alloc] initWithTitle:@"Wolf Spider" rating:5 thumbImage:[UIImage imageNamed:@"wolfSpiderThumb.jpg"] fullImage:[UIImage imageNamed:@"wolfSpider.jpg"] description:@"Wolf spiders are members of the family Lycosidae. They are robust and agile hunters with excellent eyesight." type:@"Arachnida"];
+    
+    ScaryBugsDataSource *bug4 = [[ScaryBugsDataSource alloc] initWithTitle:@"Lady Bug" rating:1 thumbImage:[UIImage imageNamed:@"ladybugThumb.jpg"] fullImage:[UIImage imageNamed:@"ladybug.jpg"] description:@"Coccinellidae is a widespread family of small beetles ranging from 0.8-18mm. Commonly yellow, orange, or red with small black spots on their wing." type:@"Insecta"];
+    
     NSMutableArray *bugs = [NSMutableArray arrayWithObjects:bug1, bug2, bug3, bug4, nil];
     
     UINavigationController *navController = (UINavigationController *) self.window.rootViewController;
-    RWTMasterViewController *masterController = [navController.viewControllers objectAtIndex:0];
+    BugsListViewController *masterController = [navController.viewControllers objectAtIndex:0];
     masterController.bugs = bugs;
     
     return YES;
