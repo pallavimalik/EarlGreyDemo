@@ -12,6 +12,7 @@
 		8E570AE71D90DF4F0020A6E5 /* ScaryBugDetailViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E570AE61D90DF4F0020A6E5 /* ScaryBugDetailViewControllerSpec.swift */; };
 		8E86B8511D9059DB00A8A836 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E86B8501D9059DB00A8A836 /* EarlGrey.swift */; };
 		8E86B8531D905A1600A8A836 /* MockedNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E86B8521D905A1600A8A836 /* MockedNavigationController.swift */; };
+		8EC0A3671D9420CA000B65C5 /* ScaryBugsCustomAssertionsViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC0A3661D9420CA000B65C5 /* ScaryBugsCustomAssertionsViewControllerSpec.swift */; };
 		D698BE3CC63306436268605E /* libPods-ScaryBugsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8490A82C12870DFEB3A876 /* libPods-ScaryBugsTests.a */; };
 		EB544A0718A1876200E34B7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB544A0618A1876200E34B7E /* Foundation.framework */; };
 		EB544A0918A1876200E34B7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB544A0818A1876200E34B7E /* CoreGraphics.framework */; };
@@ -75,6 +76,7 @@
 		8E570AE61D90DF4F0020A6E5 /* ScaryBugDetailViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaryBugDetailViewControllerSpec.swift; sourceTree = "<group>"; };
 		8E86B8501D9059DB00A8A836 /* EarlGrey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
 		8E86B8521D905A1600A8A836 /* MockedNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockedNavigationController.swift; sourceTree = "<group>"; };
+		8EC0A3661D9420CA000B65C5 /* ScaryBugsCustomAssertionsViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaryBugsCustomAssertionsViewControllerSpec.swift; sourceTree = "<group>"; };
 		C488E87E081C46C5571F2B67 /* libPods-ScaryBugs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScaryBugs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8490A82C12870DFEB3A876 /* libPods-ScaryBugsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScaryBugsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB544A0318A1876200E34B7E /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +153,7 @@
 				8E86B8501D9059DB00A8A836 /* EarlGrey.swift */,
 				8E86B8521D905A1600A8A836 /* MockedNavigationController.swift */,
 				8E1891F41D50825E00D42F92 /* ScaryBugsViewControllerSpec.swift */,
+				8EC0A3661D9420CA000B65C5 /* ScaryBugsCustomAssertionsViewControllerSpec.swift */,
 				8E570AE61D90DF4F0020A6E5 /* ScaryBugDetailViewControllerSpec.swift */,
 				8E1891F61D50825E00D42F92 /* Info.plist */,
 				8E1892061D50832100D42F92 /* ScaryBugsTests-Bridging-Header.h */,
@@ -443,6 +446,7 @@
 			files = (
 				8E86B8531D905A1600A8A836 /* MockedNavigationController.swift in Sources */,
 				8E86B8511D9059DB00A8A836 /* EarlGrey.swift in Sources */,
+				8EC0A3671D9420CA000B65C5 /* ScaryBugsCustomAssertionsViewControllerSpec.swift in Sources */,
 				8E570AE71D90DF4F0020A6E5 /* ScaryBugDetailViewControllerSpec.swift in Sources */,
 				8E1891F51D50825E00D42F92 /* ScaryBugsViewControllerSpec.swift in Sources */,
 			);
